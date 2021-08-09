@@ -5,7 +5,9 @@
 Author: Christoph Wüllen, DL1YCF
 
 ## Compile Scripts for piHPSDR, LinHPSDR, Hamlib, FLDIGI, WSJT-X
-[piHPSDR Compile Scripts](https://groups.google.com/g/hermes-lite/c/4Bnf2p0C1S4/m/AlGdB8tiAwAJ)  
+[ReadMe](https://groups.google.com/group/hermes-lite/attach/362cb079d5102/ReadMe.txt?part=0.1)  
+[Install Script](https://groups.google.com/group/hermes-lite/attach/362cb079d5102/install.sh?part=0.2)  
+[Compile Script](https://groups.google.com/group/hermes-lite/attach/362cb079d5102/compile.sh?part=0.3)  
 Author: Christoph Wüllen, DL1YCF
 
 ## PulseAudio Setup
