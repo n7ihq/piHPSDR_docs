@@ -28,36 +28,44 @@ Reload PulseAudio: pulseaudio -k
 ### Radio
 Select Receivers: 1  
 Select Filter Board: N2ADR  
-[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20RX.png)  
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20Radio.png)  
 ### RX
 Check Local Audio Output  
 Select Built-in Audio Analog Stereo
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20RX.png)  
 ### TX
 Check Local Microphone  
 Select Monitor of Virtual Audio Device
 Set Tune Percent: 100 
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20TX.png)  
 ### PA
 Calibrate: Set all bands to 39.0
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20PA.png)  
 ### RIGCTL
 Check Rigctl Enable  
-Set RigCtl Port Number: 19090
+Set RigCtl Port Number: 19090  
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20RIGCTL.png)  
 
 ## FLDIGI Configuration
 ### Soundcard > Devices
-Check PulseAudio
+Check PulseAudio  
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/FLDIGI%20Sound.png)  
 ### Rig Control > Hamlib
 Select Rig: OpenHPSDR PiHPSDR  
 Set Device: localhost:19090  
 Check Use Hamlib  
-Click Initialize
+Click Initialize  
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/FLDIGI%20Hamlib.png)  
 
 ## PulseAudio Volume Control
 ### Playback
 Select piHPSDR: RX-0 on Built-in Audio Analog Stereo  
 Set audio level for listening to signals  
 Select FLDIGI: playback on Virtual Audio Device  
-Set audio level for clean transmit signal
+Set audio level for clean transmit signal  
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Playback.png)  
 ### Recording
 Select FLDIGI: capture from Monitor of Built-in Audio Analog Stereo  
 Select piHPSDR: TX from Monitor of Virtual Audio Device  
-Set audio level to ?
+Set audio level to ?  
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Recording.png)  
