@@ -1,4 +1,4 @@
-# piHPSDR Setup for Raspberry Pi and Hermes-Lite 2
+# piHPSDR Setup on Raspberry Pi with Hermes-Lite 2
 
 ## Manual Compile Instructions for piHPSDR
 [piHPSDR Compile Instructions](https://16866925358202169909.googlegroups.com/attach/1e89c10f8df55/Linux-CompileFromSources.pdf?part=0.1&view=1&view=1&vt=ANaJVrHZ1LZ2fEuy3iSNndb5Q19r6DNVudqEvoqXk-__CruZ34FcbCEbTum7GwsoKW3Ztqo1dllqumkUCpb7PTCzxfnZcqGnn0ZwXp2dJT5GWt1ny0ZjqLM)  
