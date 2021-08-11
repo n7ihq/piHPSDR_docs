@@ -31,15 +31,15 @@ Select Filter Board: N2ADR
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20Radio.png)  
 ### RX
 Check Local Audio Output  
-Select Built-in Audio Analog Stereo
+Select Built-in Audio Analog Stereo  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20RX.png)  
 ### TX
 Check Local Microphone  
-Select Monitor of Virtual Audio Device
+Select Monitor of Virtual Audio Device  
 Set Tune Percent: 100 
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20TX.png)  
 ### PA
-Calibrate: Set all bands to 39.0
+Calibrate: Set all bands to 39.0  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20PA.png)  
 ### RIGCTL
 Check Rigctl Enable  
