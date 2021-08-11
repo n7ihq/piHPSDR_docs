@@ -15,7 +15,7 @@ Author: Christoph Wüllen, DL1YCF
 sudo apt install pavucontrol  
 
 **Create PulseAudio configuration file**  
-Included in Install Script
+Included in piHPSDR Install Script  
 nano .config/pulse/default.pa  
 .include /etc/pulse/default.pa  
 load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="device.description='Virtual Audio Device'"
