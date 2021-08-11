@@ -36,7 +36,7 @@ Select Built-in Audio Analog Stereo
 ### TX
 Check Local Microphone  
 Select Monitor of Virtual Audio Device  
-Set Tune Percent: 100 
+Set Tune Percent: 100  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20TX.png)  
 ### PA
 Calibrate: Set all bands to 39.0  
