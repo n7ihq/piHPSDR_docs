@@ -2,22 +2,22 @@
 
 ## Manual Compile Instructions for piHPSDR
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
-Omit ALSA setup
-Author: Christoph Wüllen, DL1YCF
+Author: Christoph Wüllen, DL1YCF  
+**Omit Appendix D: creating loop-back "sound cards"**  
 
 ## Compile Scripts for piHPSDR, LinHPSDR, Hamlib, FLDIGI, WSJT-X
 [ReadMe](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/ReadMe.txt)  
 [Install Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/install.sh)  
 [Compile Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/compile.sh)  
 Author: Christoph Wüllen, DL1YCF  
-Install Script revised by Jim Larsen, N7IHQ
+**Remove ALSA loopback sound card**  
+sudo rm /etc/rc.local
 
 ## PulseAudio Setup
 **Install PulseAudio Volume Control**  
 sudo apt install pavucontrol  
 
 **Create PulseAudio configuration file**  
-Included with piHPSDR Compile Script  
 nano ~/.config/pulse/default.pa  
 Add:  
 .include /etc/pulse/default.pa  
