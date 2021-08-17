@@ -1,4 +1,4 @@
-# piHPSDR Setup: Raspberry Pi with Hermes-Lite 2
+# piHPSDR and FLDIGI Setup on Raspberry Pi and Hermes-Lite 2
 
 ## Manual Compile Instructions for piHPSDR
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
@@ -28,6 +28,7 @@ Reload PulseAudio: pulseaudio -k
 ### Radio
 Select Receivers: 1  
 Select Filter Board: N2ADR  
+Check HL2 PA Enable
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20Radio.png)  
 ### RX
 Check Local Audio Output  
@@ -39,7 +40,7 @@ Select Monitor of Virtual Audio Device
 Set Tune Percent: 100  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20TX.png)  
 ### PA
-Calibrate: Set all bands to 39.0  
+Calibrate: Set all bands to 40.0  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20PA.png)  
 ### RIGCTL
 Check Rigctl Enable  
@@ -58,6 +59,12 @@ Click Initialize
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/FLDIGI%20Hamlib.png)  
 
 ## PulseAudio Volume Control
+### Output Devices
+Set levels to 100%
+[Screenshot]
+### Input Devices
+Set levels to 100%
+[Screenshot]
 ### Playback
 Select piHPSDR: RX-0 on Built-in Audio Analog Stereo  
 Set audio level for listening to signals  
