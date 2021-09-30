@@ -291,6 +291,7 @@ StartupNotify=true
 ##########################################################
 
 
+# Removed ALSA loopbacks for PulseAudio operation (N7IHQ)
 ###########################################################################
 #
 #  Create loopback sound devices (virtual audio cables)
@@ -299,18 +300,18 @@ StartupNotify=true
 #
 ###########################################################################
 #
-sudo modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
+# sudo modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
 #
 # Make this permanent
 #
-cat > etc_rc.local << '#EOF'
+# cat > etc_rc.local << '#EOF'
 #!/bin/sh -e
 #
 
-modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
-exit 0
+# modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
+# exit 0
 #EOF
-sudo cp etc_rc.local /etc/rc.local
+# sudo cp etc_rc.local /etc/rc.local
 
 
 ###########################################################################
@@ -327,7 +328,9 @@ sudo cp etc_rc.local /etc/rc.local
 cat > etc_network_eth0 << '#EOF'
 auto eth0
   iface eth0 inet static
-  address 191.168.1.50
+  # Corrected fixed IP address (N7IHQ)
+  # address 191.168.1.50
+  address 192.168.1.50
   netmask 255.255.255.0
   gateway 192.168.1.1
   dns-nameservers 192.168.1.1
