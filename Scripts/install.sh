@@ -179,7 +179,9 @@ git clone https://github.com/g0orx/linhpsdr
 #
 cd $HOME
 rm -rf hamlib
-git clone https://github.com/dl1ycf/hamlib
+# Corrected hamlib repository location (N7IHQ)
+# git clone https://github.com/dl1ycf/hamlib
+git clone https://github.com/Hamlib/Hamlib.git
 #
 # ---------------------------
 # Download GUI rig controller
