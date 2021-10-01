@@ -181,7 +181,7 @@ cd $HOME
 rm -rf hamlib
 # Corrected hamlib repository location (N7IHQ)
 # git clone https://github.com/dl1ycf/hamlib
-git clone https://github.com/Hamlib/Hamlib.git
+git clone https://github.com/Hamlib/Hamlib.git hamlib
 #
 # ---------------------------
 # Download GUI rig controller
