@@ -10,7 +10,7 @@ Author: Christoph Wüllen, DL1YCF
 [Install Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/install.sh)  
 [Compile Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/compile.sh)  
 Author: Christoph Wüllen, DL1YCF  
-Modified by: Jim Larsen, N7IHQ
+Install Script modified by: Jim Larsen, N7IHQ
 
 ## PulseAudio Setup
 **Install PulseAudio Volume Control**  
