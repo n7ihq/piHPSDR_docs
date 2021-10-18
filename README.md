@@ -1,6 +1,6 @@
-# piHPSDR and FLDIGI Setup on Raspberry Pi and Hermes-Lite 2
+# piHPSDR and FLDIGI setup on Raspberry Pi with Hermes-Lite 2
 
-## Manual Compile Instructions for piHPSDR
+## piHPSDR Manual Compile Instructions
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
 Author: Christoph Wüllen, DL1YCF  
 **Omit Appendix D: creating loop-back "sound cards"**  
@@ -10,8 +10,7 @@ Author: Christoph Wüllen, DL1YCF
 [Install Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/install.sh)  
 [Compile Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/compile.sh)  
 Author: Christoph Wüllen, DL1YCF  
-**Remove ALSA loopback sound card**  
-sudo rm /etc/rc.local
+Modified by: Jim Larsen, N7IHQ
 
 ## PulseAudio Setup
 **Install PulseAudio Volume Control**  
