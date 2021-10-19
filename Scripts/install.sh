@@ -55,6 +55,10 @@ sudo apt-get --yes install libcrypt1
 # the original location. Note this is a 32-bit version,
 # so on 64-bit systems use wiringpi from your distribution.
 #
+
+# Install libgpiod-dev (N7IHQ)
+sudo apt-get --yes install libgpiod-dev
+
 cd /tmp
 wget https://project-downloads.drogon.net/wiringpi-latest.deb
 sudo dpkg -i wiringpi-latest.deb
