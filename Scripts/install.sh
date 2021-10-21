@@ -46,18 +46,17 @@ sudo apt-get --yes install libcurl4-openssl-dev
 sudo apt-get --yes install libusb-1.0-0-dev
 sudo apt-get --yes install libi2c-dev
 sudo apt-get --yes install libcrypt1
-#sudo apt-get --yes install wiringpi
 
+# Install libgpiod-dev (N7IHQ)
+sudo apt-get --yes install libgpiod-dev
+
+#sudo apt-get --yes install wiringpi
 #
 # Do not obtain "wiringpi" from the Raspian archive,
 # since this version is not the latest one and may
 # not fully support the Pi-4. Instead, install from
 # the original location. Note this is a 32-bit version,
 # so on 64-bit systems use wiringpi from your distribution.
-#
-
-# Install libgpiod-dev (N7IHQ)
-sudo apt-get --yes install libgpiod-dev
 
 cd /tmp
 wget https://project-downloads.drogon.net/wiringpi-latest.deb
@@ -331,16 +330,26 @@ StartupNotify=true
 #
 ###########################################################################
 #
+# Modified Fixed IP address settings to match my network (N7IHQ)
+#
+# cat > etc_network_eth0 << '#EOF'
+# auto eth0
+#   iface eth0 inet static
+#   address 192.168.1.50
+#   netmask 255.255.255.0
+#   gateway 192.168.1.1
+#   dns-nameservers 192.168.1.1
+# #EOF
+
 cat > etc_network_eth0 << '#EOF'
 auto eth0
   iface eth0 inet static
-  # Corrected fixed IP address (N7IHQ)
-  # address 191.168.1.50
-  address 192.168.1.50
+  address 192.168.0.50
   netmask 255.255.255.0
-  gateway 192.168.1.1
-  dns-nameservers 192.168.1.1
+  gateway 192.168.0.1
+  dns-nameservers 192.168.0.1
 #EOF
+
 sudo cp etc_network_eth0 /etc/network/interfaces.d/eth0
 
 ###########################################################################
