@@ -17,10 +17,11 @@ Install Script modified by: Jim Larsen, N7IHQ
 sudo apt install pavucontrol  
 
 **Create PulseAudio configuration file**  
-nano ~/.config/pulse/default.pa  
+Create file: ~/.config/pulse/default.pa  
 Add:  
 .include /etc/pulse/default.pa  
 load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="device.description='Virtual Audio Device'"  
+
 Reload PulseAudio: pulseaudio -k
 
 ## piHPSDR Menu
