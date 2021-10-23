@@ -66,12 +66,14 @@ Set levels to 100%
 Set levels to 100%
 [Screenshot]
 ### Playback
-Select piHPSDR: RX-0 on Built-in Audio Analog Stereo  
-Set audio level for listening to signals  
-Select FLDIGI: playback on Virtual Audio Device  
+piHPSDR: RX-0 on Built-in Audio Analog Stereo  
+Set level for monitoring signals  
+FLDIGI: playback on Virtual Audio Device  
+Set level to 100%
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Playback.png)  
 ### Recording
-Select FLDIGI: capture from Monitor of Built-in Audio Analog Stereo  
+Select FLDIGI: capture from Monitor of Built-in Audio Analog Stereo
+Set level for waterfall display
 Select piHPSDR: TX from Monitor of Virtual Audio Device  
-Set audio level to ?  
+Set level to 50%  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Recording.png)  
