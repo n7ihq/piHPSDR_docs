@@ -36,8 +36,8 @@ Select Built-in Audio Analog Stereo
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20RX.png)  
 ### TX
 Check Local Microphone  
-Select Monitor of Virtual Audio Device  
-Set Tune Percent: 100  
+Select Monitor of Virtual Audio Device 
+Check Tune use drive
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20TX.png)  
 ### PA
 Calibrate: Set all bands to 40.0  
@@ -77,3 +77,9 @@ Set level for waterfall display
 Select piHPSDR: TX from Monitor of Virtual Audio Device  
 Set level to 50%  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Recording.png)  
+
+## piHPSDR Transmit Settings
+FLDIGI: Click TUNE
+piHPSDR:
+Set Drive to 100
+Set Mic level for 5 watts output
