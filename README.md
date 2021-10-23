@@ -79,7 +79,7 @@ Set level to 50%
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Recording.png)  
 
 ## piHPSDR Transmit Settings
-FLDIGI: Click TUNE
-piHPSDR:
-Set Drive to 100
-Set Mic level for approximately 5 watts output
+FLDIGI: Click TUNE  
+piHPSDR:  
+Set Drive to 100  
+Set Mic level for approximately 5 watts output  
