@@ -22,7 +22,7 @@ Add:
 .include /etc/pulse/default.pa  
 load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="device.description='Virtual Audio Device'"  
 
-Reload PulseAudio: pulseaudio -k
+Reboot computer
 
 ## piHPSDR Menu
 ### Radio
