@@ -69,7 +69,6 @@ Set levels to 100%
 Select piHPSDR: RX-0 on Built-in Audio Analog Stereo  
 Set audio level for listening to signals  
 Select FLDIGI: playback on Virtual Audio Device  
-Set audio level for clean transmit signal  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Playback.png)  
 ### Recording
 Select FLDIGI: capture from Monitor of Built-in Audio Analog Stereo  
