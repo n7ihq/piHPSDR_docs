@@ -28,7 +28,7 @@ Reboot computer
 ### Radio
 Select Receivers: 1  
 Select Filter Board: N2ADR  
-Check HL2 PA Enable
+Check HL2 PA Enable  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20Radio.png)  
 ### RX
 Check Local Audio Output  
@@ -37,7 +37,7 @@ Select Built-in Audio Analog Stereo
 ### TX
 Check Local Microphone  
 Select Monitor of Virtual Audio Device 
-Check Tune use drive
+Check Tune use drive  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20TX.png)  
 ### PA
 Calibrate: Set all bands to 40.0  
@@ -60,16 +60,16 @@ Click Initialize
 
 ## PulseAudio Volume Control
 ### Output Devices
-Set levels to 100%
+Set levels to 100%  
 [Screenshot]
 ### Input Devices
-Set levels to 100%
+Set levels to 100%  
 [Screenshot]
 ### Playback
 piHPSDR: RX-0 on Built-in Audio Analog Stereo  
 Set level for monitoring signals  
 FLDIGI: playback on Virtual Audio Device  
-Set level to 100%
+Set level to 100%  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Playback.png)  
 ### Recording
 Select FLDIGI: capture from Monitor of Built-in Audio Analog Stereo
@@ -82,4 +82,4 @@ Set level to 50%
 FLDIGI: Click TUNE
 piHPSDR:
 Set Drive to 100
-Set Mic level for 5 watts output
+Set Mic level for approximately 5 watts output
