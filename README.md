@@ -72,8 +72,8 @@ FLDIGI: playback on Virtual Audio Device
 Set level to 100%  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Playback.png)  
 ### Recording
-Select FLDIGI: capture from Monitor of Built-in Audio Analog Stereo
-Set level for waterfall display
+Select FLDIGI: capture from Monitor of Built-in Audio Analog Stereo  
+Set level for waterfall display  
 Select piHPSDR: TX from Monitor of Virtual Audio Device  
 Set level to 50%  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Recording.png)  
