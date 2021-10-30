@@ -296,7 +296,7 @@ StartupNotify=true
 ##########################################################
 
 
-# Removed ALSA loopbacks for PulseAudio operation (N7IHQ)
+# Uncomment this section for ALSA operation (N7IHQ)
 ###########################################################################
 #
 #  Create loopback sound devices (virtual audio cables)
@@ -312,12 +312,11 @@ StartupNotify=true
 # cat > etc_rc.local << '#EOF'
 #!/bin/sh -e
 #
-
+#
 # modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
 # exit 0
 #EOF
 # sudo cp etc_rc.local /etc/rc.local
-
 
 ###########################################################################
 #
