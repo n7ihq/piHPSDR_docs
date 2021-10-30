@@ -157,6 +157,8 @@ mv tmp.make GNUmakefile
 sed -e "s/#STEMLAB_DISCOVERY=STEMLAB_DISCOVERY_NOAVAHI/STEMLAB_DISCOVERY=STEMLAB_DISCOVERY_NOAVAHI/" GNUmakefile > tmp.make
 mv tmp.make GNUmakefile
 sed -e "s/GPIO_LIBS=-lwiringPi/GPIO_LIBS=-lwiringPi -lcrypt/" GNUmakefile > tmp.make
+# Uncomment for ALSA install (N7IHQ)
+# sed -e "s/#AUDIO_MODULE=ALSA/AUDIO_MODULE=ALSA/" GNUmakefile > tmp.make
 mv tmp.make GNUmakefile
 #
 # -----------------------------------------
@@ -307,15 +309,15 @@ StartupNotify=true
 #
 # sudo modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
 #
-# Make this permanent
+# # Make this permanent
 #
 # cat > etc_rc.local << '#EOF'
-#!/bin/sh -e
+# #!/bin/sh -e
 #
 #
 # modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
 # exit 0
-#EOF
+# #EOF
 # sudo cp etc_rc.local /etc/rc.local
 
 ###########################################################################
