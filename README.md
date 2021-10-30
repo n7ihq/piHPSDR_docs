@@ -3,16 +3,15 @@
 ## piHPSDR Manual Compile Instructions
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
 Author: Christoph Wüllen, DL1YCF  
-**Omit Appendix D: creating loop-back "sound cards"**  
 
-## Compile Scripts for piHPSDR, LinHPSDR, Hamlib, FLDIGI, WSJT-X
-[ReadMe](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/ReadMe.txt)  
-[Install Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/install.sh)  
-[Compile Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/compile.sh)  
-Author: Christoph Wüllen, DL1YCF  
-Install Script modified by: Jim Larsen, N7IHQ
+### ALSA Setup
+Before compiling piHPSDR, edit file ~/pihpsdr/Makefile  
+Uncomment #AUDIO_MODULE=ALSA
+Save file
 
-## PulseAudio Setup
+### PulseAudio Setup
+**Omit Manual Compile Instructions Appendix D: creating loop-back "sound cards"**
+
 **Install PulseAudio Volume Control**  
 sudo apt install pavucontrol  
 
@@ -21,8 +20,16 @@ Create file: ~/.config/pulse/default.pa
 Add:  
 .include /etc/pulse/default.pa  
 load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="device.description='Virtual Audio Device'"  
-
+Save file  
 Reboot computer
+
+## Compile Scripts for piHPSDR, LinHPSDR, Hamlib, FLDIGI, WSJT-X
+[ReadMe](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/ReadMe.txt)  
+[Install Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/install.sh)  
+[Compile Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/compile.sh)  
+Modify Install Script for ALSA or PulseAudio installation  
+Author: Christoph Wüllen, DL1YCF  
+Install Script modified by: Jim Larsen, N7IHQ
 
 ## piHPSDR Menu
 ### Radio
