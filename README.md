@@ -5,8 +5,8 @@
 Author: Christoph Wüllen, DL1YCF  
 
 ### ALSA Setup
-Before compiling piHPSDR, edit file ~/pihpsdr/Makefile  
-Uncomment #AUDIO_MODULE=ALSA
+Before compiling piHPSDR, edit the file ~/pihpsdr/Makefile  
+Uncomment the line #AUDIO_MODULE=ALSA  
 Save file
 
 ### PulseAudio Setup
@@ -16,7 +16,7 @@ Save file
 sudo apt install pavucontrol  
 
 **Create PulseAudio configuration file**  
-Create file: ~/.config/pulse/default.pa  
+Create the file: ~/.config/pulse/default.pa  
 Add:  
 .include /etc/pulse/default.pa  
 load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="device.description='Virtual Audio Device'"  
