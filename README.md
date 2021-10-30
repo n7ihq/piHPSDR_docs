@@ -27,7 +27,8 @@ Reboot computer
 [ReadMe](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/ReadMe.txt)  
 [Install Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/install.sh)  
 [Compile Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/compile.sh)  
-Modify Install Script for ALSA installation  
+Default installation for PulseAudio operation
+Modify Install Script for ALSA operation  
 Author: Christoph Wüllen, DL1YCF  
 Install Script modified by: Jim Larsen, N7IHQ
 
