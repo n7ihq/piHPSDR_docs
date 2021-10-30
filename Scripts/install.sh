@@ -157,8 +157,10 @@ mv tmp.make GNUmakefile
 sed -e "s/#STEMLAB_DISCOVERY=STEMLAB_DISCOVERY_NOAVAHI/STEMLAB_DISCOVERY=STEMLAB_DISCOVERY_NOAVAHI/" GNUmakefile > tmp.make
 mv tmp.make GNUmakefile
 sed -e "s/GPIO_LIBS=-lwiringPi/GPIO_LIBS=-lwiringPi -lcrypt/" GNUmakefile > tmp.make
-# Uncomment for ALSA install (N7IHQ)
+
+# Uncomment for ALSA operation (N7IHQ)
 # sed -e "s/#AUDIO_MODULE=ALSA/AUDIO_MODULE=ALSA/" GNUmakefile > tmp.make
+
 mv tmp.make GNUmakefile
 #
 # -----------------------------------------
@@ -313,12 +315,25 @@ StartupNotify=true
 #
 # cat > etc_rc.local << '#EOF'
 # #!/bin/sh -e
-#
-#
 # modprobe snd-aloop enable=1,1 index=4,5 id=vac1,vac2 pcm_substreams=2,2
 # exit 0
 # #EOF
 # sudo cp etc_rc.local /etc/rc.local
+
+# Comment out this section for ALSA operation (N7IHQ)
+###########################################################################
+#
+#  Create PulseAudio configuration file
+#  This creates a Virtual Audio Device for interfacing to digital modes programs
+#
+###########################################################################
+#
+cat > pulse_default.pa << '#EOF'
+#!/bin/sh -e
+.include /etc/pulse/default.pa
+load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="device.description='Virtual Audio Device'"
+#EOF
+cp pulse_default.pa ~/.config/pulse/default.pa
 
 ###########################################################################
 #
