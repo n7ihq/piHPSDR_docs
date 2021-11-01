@@ -158,7 +158,7 @@ sed -e "s/#STEMLAB_DISCOVERY=STEMLAB_DISCOVERY_NOAVAHI/STEMLAB_DISCOVERY=STEMLAB
 mv tmp.make GNUmakefile
 sed -e "s/GPIO_LIBS=-lwiringPi/GPIO_LIBS=-lwiringPi -lcrypt/" GNUmakefile > tmp.make
 
-# Uncomment for ALSA operation (N7IHQ)
+# Uncomment for ALSA installation (N7IHQ)
 # sed -e "s/#AUDIO_MODULE=ALSA/AUDIO_MODULE=ALSA/" GNUmakefile > tmp.make
 
 mv tmp.make GNUmakefile
@@ -300,7 +300,7 @@ StartupNotify=true
 ##########################################################
 
 
-# Uncomment this section for ALSA operation (N7IHQ)
+# Uncomment the following section for ALSA installation (N7IHQ)
 ###########################################################################
 #
 #  Create loopback sound devices (virtual audio cables)
@@ -320,7 +320,7 @@ StartupNotify=true
 # #EOF
 # sudo cp etc_rc.local /etc/rc.local
 
-# Comment out this section for ALSA operation (N7IHQ)
+# Comment out the followin section for ALSA operation (N7IHQ)
 ###########################################################################
 #
 #  Create PulseAudio configuration file
@@ -346,7 +346,7 @@ cp pulse_default.pa ~/.config/pulse/default.pa
 #
 ###########################################################################
 #
-# Modified Fixed IP address settings to match my network (N7IHQ)
+# Modify Fixed IP address settings to match your network (N7IHQ)
 #
 # cat > etc_network_eth0 << '#EOF'
 # auto eth0
