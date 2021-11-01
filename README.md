@@ -52,7 +52,7 @@ Select Monitor of Virtual Audio Device
 Check Tune use drive  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20TX.png)  
 ### PA
-Calibrate: Set all bands to 40.0  
+Calibrate: Set all bands to 39.0  
 [Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/piHPSDR%20PA.png)  
 ### RIGCTL
 Check Rigctl Enable  
