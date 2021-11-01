@@ -1,6 +1,6 @@
 # piHPSDR and FLDIGI setup on Raspberry Pi with Hermes-Lite 2
 
-This guide documents steps to install and configure piHPSDR with digital mode applications using PulseAudio on the Raspberry Pi
+This guide documents steps to install and configure piHPSDR with digital mode applications on the Raspberry Pi
 
 ## Compile piHPSDR From Source Code
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
@@ -18,11 +18,17 @@ Add:
 .include /etc/pulse/default.pa  
 load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="device.description='Virtual Audio Device'"  
 Save file  
-Reboot computer
+Reboot computer  
+
+### ALSA Setup
+Before compiling piHPSDR  
+Edit the file ~/pihpsdr/Makefile  
+Uncomment the line #AUDIO_MODULE=ALSA
+Save file
 
 ## Install and Compile Scripts for piHPSDR, LinHPSDR, Hamlib, FLDIGI, WSJT-X
 Installs dependencies and compiles piHPSDR for PulseAudio operation  
-Modify Install Script for ALSA operation  
+The install script may be modified for ALSA operation  
 
 [ReadMe](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/ReadMe.txt)  
 [Install Script](https://github.com/n7ihq/piHPSDR/blob/main/Scripts/install.sh)  
