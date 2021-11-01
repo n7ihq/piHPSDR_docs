@@ -47,8 +47,9 @@ sudo apt-get --yes install libusb-1.0-0-dev
 sudo apt-get --yes install libi2c-dev
 sudo apt-get --yes install libcrypt1
 
-# Install libgpiod-dev (N7IHQ)
+# Install libgpiod-dev, pavucontrol (N7IHQ)
 sudo apt-get --yes install libgpiod-dev
+sudo apt-get --yes install pavucontrol
 
 #sudo apt-get --yes install wiringpi
 #
