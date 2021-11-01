@@ -1,16 +1,13 @@
 # piHPSDR and FLDIGI setup on Raspberry Pi with Hermes-Lite 2
 
-## Compile piHPSDR From Source Code Instructions
+This guide documents steps to install and configure piHPSDR with digital mode applications using PulseAudio on the Raspberry Pi
+
+## Compile piHPSDR From Source Code
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
 Author: Christoph Wüllen, DL1YCF  
 
-### ALSA Setup
-Before compiling piHPSDR, edit the file ~/pihpsdr/Makefile  
-Uncomment the line #AUDIO_MODULE=ALSA  
-Save file
-
 ### PulseAudio Setup
-**Omit Manual Compile Instructions Appendix D: creating loop-back "sound cards"**
+**Omit Appendix D: creating loop-back "sound cards"**
 
 **Install PulseAudio Volume Control**  
 sudo apt install pavucontrol  
