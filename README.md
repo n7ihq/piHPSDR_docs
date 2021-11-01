@@ -1,6 +1,6 @@
 # piHPSDR and FLDIGI setup on Raspberry Pi with Hermes-Lite 2
 
-## piHPSDR Manual Compile Instructions
+## piHPSDR Compile From Source Code Instructions
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
 Author: Christoph Wüllen, DL1YCF  
 
@@ -23,7 +23,7 @@ load-module module-null-sink sink_name=Virtual_Audio_Device sink_properties="dev
 Save file  
 Reboot computer
 
-## Compile Scripts for piHPSDR, LinHPSDR, Hamlib, FLDIGI, WSJT-X
+## Install and Compile Scripts for piHPSDR, LinHPSDR, Hamlib, FLDIGI, WSJT-X
 Installs dependencies and compiles piHPSDR for PulseAudio operation  
 Modify Install Script for ALSA operation  
 
