@@ -1,6 +1,6 @@
 # piHPSDR and FLDIGI setup on Raspberry Pi with Hermes-Lite 2
 
-## piHPSDR Compile From Source Code Instructions
+## Compile piHPSDR From Source Code Instructions
 [piHPSDR Compile Instructions](https://github.com/n7ihq/piHPSDR/blob/main/piHPSDR%20Compile.pdf)  
 Author: Christoph Wüllen, DL1YCF  
 
