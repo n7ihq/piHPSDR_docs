@@ -73,10 +73,10 @@ Click Initialize
 ## PulseAudio Volume Control
 ### Output Devices
 Set levels to 100%  
-[Screenshot]
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Output.png)
 ### Input Devices
 Set levels to 100%  
-[Screenshot]
+[Screenshot](https://github.com/n7ihq/piHPSDR/blob/main/Screenshots/PulseAudio%20Input.png)
 ### Playback
 piHPSDR: RX-0 on Built-in Audio Analog Stereo  
 Set level for monitoring signals  
